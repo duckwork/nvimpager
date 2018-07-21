@@ -9,7 +9,7 @@ export PPID
 
 name=nvimpager
 mode=auto
-rc=${XDG_CONFIG_HOME:-~/.config}/nvimpager/init.vim
+rc=${XDG_CONFIG_HOME:-~/.config}/nvim/pager.vim
 
 usage () {
   echo "Usage: ${0##*/} [-acp] [--] [nvim options and files]"
